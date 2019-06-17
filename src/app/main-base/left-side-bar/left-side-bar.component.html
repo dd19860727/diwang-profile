@@ -1,0 +1,41 @@
+<div class="full-parent">
+    <nav class="cd-side-navigation sidebar left">
+        <ul>
+          <li>
+            <a (click)="selectedItem('home');"
+              [class.selected]="getSelectedItem() == 'home'">
+              <span class="home_icon"></span>
+              <span>Home</span>
+            </a>
+          </li>
+          <li>
+            <a (click)="selectedItem('resume');"
+              [class.selected]="getSelectedItem() == 'resume'">
+              <span class="resume_icon"></span>
+              <span>Resume</span>
+            </a>
+          </li>
+          <li>
+            <a (click)="selectedItem('portfolio');"
+              [class.selected]="getSelectedItem() == 'portfolio'">
+              <span class="portfolio_icon"></span>
+              <span>Portfolio</span>
+            </a>
+          </li>
+          <li>
+            <a (click)="selectedItem('blog');"
+              [class.selected]="getSelectedItem() == 'blog'">
+              <span class="blog_icon"></span>
+              <span>Blog</span>
+            </a>
+          </li>
+          <li>
+            <a (click)="selectedItem('contact-us');"
+               [class.selected]="getSelectedItem() == 'contact-us'">
+              <span class="cont_icon"></span>
+              <span>Contact us</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+</div>
