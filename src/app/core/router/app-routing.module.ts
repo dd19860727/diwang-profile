@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { PageNotFoundComponent } from 'core/page-not-found';
-import { BackendDashboardComponent } from 'core/backend-dashboard';
 import { LoginUrlRedirectResolver } from 'core/backend-dashboard/guards/login-url-redirect-resolver';
 
 const routes: Routes = [
